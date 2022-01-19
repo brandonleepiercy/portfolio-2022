@@ -1,0 +1,22 @@
+.loading-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-wrapper {
+    font-family: 'Satoshi-Bold';
+    display: flex;
+    flex-direction: column;
+    color: #977777;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.loading-wrapper > * {
+    margin: 20px;
+}
