@@ -1,11 +1,11 @@
 import React from 'react';
-import HeroBack from '../../components/Hero-Back/HeroBack';
+import HeroComponent from '../../components/Hero/Hero.js';
 import './Hero.css';
 
 function Hero() {
   return (
       <div className='hero-container'>
-            <HeroBack/>
+            <HeroComponent/>
       </div>
   );
 }
