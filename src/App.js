@@ -14,16 +14,16 @@ function App() {
 
   return(
     <Router>
-        <Nav/>
+      <Nav/>
       <Routes>
+        <Route path="/about" element={<UnderConstruction/>}/>
+        <Route path="/projects" element={<UnderConstruction/>}/>
+        <Route path="/contact" element={<UnderConstruction/>}/>
+        <Route path="/resume" element={<UnderConstruction/>}/>
         <Route path="/" element={<Hero/>}/>
-        <Route exact path="/about" element={<UnderConstruction/>}/>
-        <Route exact path="/projects" element={<UnderConstruction/>}/>
-        <Route exact path="/contact" element={<UnderConstruction/>}/>
-        <Route exact path="/resume" element={<UnderConstruction/>}/>
       </Routes>
     </Router>
-  )
-}
+  );
+};
 
 export default App;

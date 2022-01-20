@@ -5,38 +5,45 @@ import { Link } from 'react-router-dom';
 function Nav() {
 
   let [atHome, setAtHome] = useState(true);
+  let [homeOrAbout, setHomeOrAbout] = useState(true);
 
-  const handleClick = (homeOrNot) => {
-    if (homeOrNot == true) {
-      setAtHome(true);
-    } else if (homeOrNot == false) {
-      setAtHome(false);
-    };
+  const handleClick = (homeOrNot, homeOrAbout) => {
+    setAtHome(homeOrNot);
+    setHomeOrAbout(homeOrAbout);
   };
 
   return (
     <div>
-      {atHome ? <div></div> : <div className='nav-initials-logo'>BP</div>}
+      {atHome ? <div></div> : <div className='nav-initials-logo' id={homeOrAbout ? 'nav-logo-red' : 'nav-logo-green'}>BP</div>}
       <div className={atHome ? 'nav-container' : 'nav-container-away'}>
           <div className={atHome ? 'nav-wrapper' : 'nav-wrapper-away'}>
-              <div className='nav-button' onClick={atHome ? () => console.log('Already at home.'): () => handleClick(true)}>
-                <Link to="/">Home</Link>
-              </div>
-              <div className='nav-button'>
-                <Link onClick={atHome? () => handleClick(false) : console.log()} to="/about">About Me</Link>
-              </div>
-              <div className='nav-button'>
-                <Link onClick={atHome? () => handleClick(false) : console.log()} to="/projects">Projects</Link>
-              </div>
-              <div className='nav-button'>
-                <Link onClick={atHome? () => handleClick(false) : console.log()} to="/contact">Contact</Link>
-              </div>
-              <div className='nav-button'>
-                <Link onClick={atHome? () => handleClick(false) : console.log()} to="/resume">Resume</Link>
-              </div>                                                        
+
+            <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>
+              <Link onClick={atHome ? () => console.log(): () => handleClick(true, true)} to="/">Home</Link>
+            </div>
+
+            <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>                
+              <Link onClick={homeOrAbout? () => handleClick(false, true) : () => handleClick(false, true)} to="/about">About Me</Link>
+            </div>
+
+            <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>
+              <Link onClick={homeOrAbout? () => handleClick(false, false) : console.log()} to="/projects">Projects</Link>
+            </div>
+
+            <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>
+              <Link onClick={homeOrAbout? () => handleClick(false, false) : console.log()} to="/contact">Contact</Link>
+            </div>
+
+            <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>
+              <Link onClick={homeOrAbout? () => handleClick(false, false) : console.log()} to="/resume">Resume</Link>
+            </div>
+
           </div>
-          <div className={atHome ? 'nav-line' : 'nav-line-away'}>
+
+          <div className={atHome ? 'nav-line' : 'nav-line-away'} id={homeOrAbout ? 'nav-line-red' : 'nav-line-green'}>
+
           </div>
+
       </div>
     </div>
   );

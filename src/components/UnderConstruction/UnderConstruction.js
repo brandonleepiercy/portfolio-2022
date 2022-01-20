@@ -6,11 +6,11 @@ function UnderConstruction() {
   return (
       <div className='construction-container'>
           <div className='construction-wrapper'>
-              <ClockLoader color='#977777' size={200}/>
+              <ClockLoader color='#ADB8A2' size={200}/>
               THIS PAGE IS UNDER CONSTRUCTION
           </div>
       </div>
   );
-}
+};
 
 export default UnderConstruction;
