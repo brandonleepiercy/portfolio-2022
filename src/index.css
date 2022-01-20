@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Satoshi-Bold;
+  src: url("./assets/fonts/Satoshi/Satoshi-Bold.otf");
+}
+
 body {
   margin: 0;
 }
