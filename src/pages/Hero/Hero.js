@@ -1,14 +1,11 @@
 import React from 'react';
+import HeroBack from '../../components/Hero-Back/HeroBack';
 import './Hero.css';
-import ClockLoader from 'react-spinners/ClockLoader';
 
 function Hero() {
   return (
-      <div className='loading-container'>
-          <div className='loading-wrapper'>
-              <ClockLoader color={'#977777'}/>
-              SITE UNDER DEVELOPMENT
-          </div>
+      <div className='hero-container'>
+            <HeroBack/>
       </div>
   );
 }
