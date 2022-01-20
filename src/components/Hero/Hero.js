@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeroBack.css';
+import './Hero.css';
 import Typist from 'react-typist';
 
 let statements = [
