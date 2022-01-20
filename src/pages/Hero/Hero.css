@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Satoshi-Bold';
+    font-family: Satoshi-Bold;
     src: url("../../assets/fonts/Satoshi/Satoshi-Bold.otf");
   }
 
@@ -13,7 +13,7 @@
 }
 
 .loading-wrapper {
-    font-family: 'Satoshi-Bold';
+    font-family: Satoshi-Bold, sans-serif;
     display: flex;
     flex-direction: column;
     color: #977777;
