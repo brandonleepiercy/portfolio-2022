@@ -23,18 +23,19 @@
     position: absolute;
     right: 0.0005em;
     animation-duration: 2.5s;
-    animation-name: herohellofadein;
+    animation-name: heroHelloFadeIn;
 }
 
 .hero-text-name {
     z-index:10;
+    opacity: 1;
     font-family: Satoshi-Bold, sans-serif;
     font-size: 125px;
     color: #977777;
     position: absolute;
     white-space: nowrap;
-    animation-delay: 2.5s;
-    animation-duration: 2s;
+    animation-duration: 4s;
+    animation-name: heroNameFadeIn;
 }
 
 .hero-tagline-typer {
@@ -44,6 +45,8 @@
     top: 60%;
     left: 40%;
     color: #7C5F5F;
+    animation-duration: 3.5s;
+    animation-name: heroTaglineFadeIn;
 }
 
 .hero-back-diagonal {
@@ -56,11 +59,11 @@
     align-self: flex-end;
     transform: skewY(-6deg);
     animation-duration: 1s;
-    animation-name: herobackslideright;
+    animation-name: heroBackSlideRight;
     z-index: 0;
 }
 
-@keyframes herobackslideright {
+@keyframes heroBackSlideRight {
     from {
         margin-right: 100%;
     }
@@ -70,12 +73,36 @@
     }
 }
 
-@keyframes herohellofadein {
+@keyframes heroHelloFadeIn {
     from {
         opacity: 0%;
     }
 
     to {
         opacity: 0.2;
+    }
+}
+
+@keyframes heroTaglineFadeIn {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes heroNameFadeIn {
+    0% {
+        opacity:0
+    }
+
+    26% {
+        opacity:0
+    }
+
+    100%{
+        opacity:1
     }
 }

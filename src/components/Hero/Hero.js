@@ -18,7 +18,7 @@ let statements = [
   "Amplify.",
   "Cognito.",
   "Code Pipeline.",
-  "n investor.",
+  " real estate investor.",
   " mechanic.",
   " race car driver.",
   " business owner."
@@ -38,7 +38,7 @@ function HeroBack() {
           </div>
           <div className='hero-tagline-typer'>
             <Typist stdTypingDelay={45} cursor={{blink:true}}>
-              <Typist.Delay ms={2000}/>
+              <Typist.Delay ms={2350}/>
               {statements[0]}
               <Typist.Backspace delay={500} count={statements[0].length}/>
               {statements[1]}
