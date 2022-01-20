@@ -1,0 +1,24 @@
+.construction-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.construction-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Satoshi-Bold, sans-serif;
+    font-size: 50px;
+    color: #977777;
+}
+
+.construction-wrapper > * {
+    margin: 10vh;
+}
