@@ -1,16 +1,17 @@
 @font-face {
   font-family: Satoshi-Bold;
-  src: url("./assets/fonts/Satoshi/Satoshi-Bold.otf");
+  font-weight: bold;
+  src: url("./assets/fonts/Satoshi/Satoshi-Bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: Satoshi-Regular;
-  src: url("./assets/fonts/Satoshi/Satoshi-Regular.otf");
+  src: url("./assets/fonts/Satoshi/Satoshi-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: Sonder;
-  src: url("./assets/fonts/Sonder/SonderRegular.otf");
+  src: url("./assets/fonts/Sonder/SonderRegular.otf") format("opentype");
 }
 
 body {
