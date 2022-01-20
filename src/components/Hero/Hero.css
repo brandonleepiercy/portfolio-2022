@@ -106,3 +106,175 @@
         opacity:1
     }
 }
+
+@media (max-width:1800px) {
+    .hero-text-hello {
+        font-size: 275px;
+    }
+
+    .hero-text-name {
+        font-size: 110px;
+    }
+
+    .hero-tagline-typer {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:1600px) {
+    .hero-text-hello {
+        font-size: 250px;
+    }
+
+    .hero-text-name {
+        font-size: 100px;
+    }
+
+    .hero-tagline-typer {
+        font-size: 55px;
+    }
+}
+
+@media (max-width:1440px) {
+    .hero-text-hello {
+        font-size: 225px;
+    }
+
+    .hero-text-name {
+        font-size: 90px;
+    }
+
+    .hero-tagline-typer {
+        font-size: 45px;
+    }
+}
+
+@media (max-width:1250px) {
+    .hero-text-hello {
+        font-size: 210px;
+    }
+
+    .hero-text-name {
+        font-size: 85px;
+    }
+
+    .hero-tagline-typer {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1024px) {
+    .hero-text-hello {
+        font-size: 175px;
+    }
+
+    .hero-text-name {
+        font-size: 75px;
+    }
+
+    .hero-tagline-typer {
+        font-size: 35px;
+    }
+    
+    .hero-back-diagonal {
+        top: 9.5%;
+    }
+}
+
+@media (max-width:768px) {
+    .hero-text-hello {
+        font-size: 130px;
+    }
+
+    .hero-text-name {
+        font-size: 55px;
+    }
+
+    .hero-tagline-typer {
+        font-size: 25px;
+    }
+
+    .hero-back-diagonal {
+        top: 8%;
+    }
+}
+
+@media (max-width:590px) {
+    .hero-text-hello {
+        font-size: 100px;
+    }
+
+    .hero-text-name {
+        font-size: 45px;
+    }
+
+    .hero-tagline-typer {
+        font-size: 23px;
+    }
+
+    .hero-back-diagonal {
+        top: 7%;
+    }
+}
+
+@media (max-width:485px) {
+    .hero-text-hello {
+        font-size: 90px;
+    }
+
+    .hero-text-name {
+        font-size: 35px;
+    }
+
+    .hero-tagline-typer {
+        font-size: 18px;
+        top: 55%;
+        left: 31%;;
+    }
+
+    .hero-back-diagonal {
+        top: 8%;
+        height: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-text-hello {
+        font-size: 75px;
+    }
+
+    .hero-text-name {
+        font-size: 30px;
+    }
+
+    .hero-tagline-typer {
+        font-size: 15px;
+        top: 54%;
+        left: 30%;
+    }
+
+    .hero-back-diagonal {
+        top: 7%;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero-text-hello {
+        font-size: 60px;
+    }
+
+    .hero-text-name {
+        font-size: 24px;
+    }
+
+    .hero-tagline-typer {
+        font-size: 12px;
+        top: 53.5%;
+        left: 30%;
+
+    }
+
+    .hero-back-diagonal {
+        top: 5.5%;
+    }
+}
