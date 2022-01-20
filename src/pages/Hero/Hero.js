@@ -1,9 +1,12 @@
 import React from 'react';
 import HeroBack from '../../components/Hero-Back/HeroBack';
+import './Hero.css';
 
 function Hero() {
   return (
-      <HeroBack/>
+      <div className='hero-container'>
+            <HeroBack/>
+      </div>
   );
 }
 
