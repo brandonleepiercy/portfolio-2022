@@ -19,22 +19,54 @@
     flex-wrap: nowrap;
 }
 
+.nav-red a {
+    color: #B8A2A2;
+}
+
+.nav-green a {
+    color: #ADB8A2;
+}
+
 .nav-line {
     width: 28%;
     height: 2.5px;
-    background-color: #B8A2A2;
     opacity: 0.15;
     margin-top: 4vh;
     animation-duration: 2s;
     animation-name: navLineFadeIn;
 }
 
+#nav-line-red {
+    background-color: #B8A2A2;
+}
+
+#nav-line-green {
+    background-color: #ADB8A2;
+}
+
 .nav-button a {
     font-family: Satoshi-Italic, sans-serif;
     font-size: 20px;
-    color: #B8A2A2;
     text-decoration: none;
     white-space: nowrap;
+}
+
+.nav-initials-logo {
+    font-family: Bagnard, sans-serif;
+    font-size: 40px;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    animation-duration: 4s;
+    animation-name: logoFadeIn;
+}
+
+#nav-logo-red {
+    color: #B8A2A2;
+}
+
+#nav-logo-green {
+    color: #ADB8A2;
 }
 
 .nav-container-away {
@@ -67,17 +99,6 @@
     margin-top: 2vh;
     animation-duration: 2s;
     animation-name: navLineAwayMorph;
-}
-
-.nav-initials-logo {
-    font-family: Bagnard, sans-serif;
-    font-size: 40px;
-    color: #B8A2A2;
-    position: fixed;
-    top: 1%;
-    left: 1%;
-    animation-duration: 4s;
-    animation-name: logoFadeIn;
 }
 
 @keyframes navButtonFadeIn {
