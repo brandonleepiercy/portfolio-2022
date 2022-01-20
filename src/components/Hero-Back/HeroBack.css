@@ -1,0 +1,31 @@
+.hero-background {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F5F5F5;
+    display: flex;
+    overflow: hidden;
+}
+
+.hero-back-diagonal {
+    width: 100%;
+    height: 43%;
+    opacity: 0.46;
+    position: relative;
+    top: 11%;
+    background-color: #AD9494;
+    align-self: flex-end;
+    transform: skewY(-6deg);
+    animation-duration: 1s;
+    animation-name: slideright;
+    z-index: 0;
+}
+
+@keyframes slideright {
+    from {
+        margin-right: 100%;
+    }
+
+    to {
+        margin-right: 0%;
+    }
+}
