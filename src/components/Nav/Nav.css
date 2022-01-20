@@ -19,14 +19,6 @@
     flex-wrap: nowrap;
 }
 
-.nav-button a {
-    font-family: Satoshi-Italic, sans-serif;
-    font-size: 20px;
-    color: #B8A2A2;
-    text-decoration: none;
-    white-space: nowrap;
-}
-
 .nav-line {
     width: 28%;
     height: 2.5px;
@@ -35,6 +27,57 @@
     margin-top: 4vh;
     animation-duration: 2s;
     animation-name: navLineFadeIn;
+}
+
+.nav-button a {
+    font-family: Satoshi-Italic, sans-serif;
+    font-size: 20px;
+    color: #B8A2A2;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-container-away {
+    width: 100vw;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    animation-duration: 2s;
+    animation-name: navContainerAwayMorph;
+}
+
+.nav-wrapper-away {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 95%;
+    justify-content: space-evenly;
+    animation-duration: 2s;
+    animation-name: navWrapperAwayMorph;
+}
+
+.nav-line-away {
+    width: 40%;
+    height: 2.5px;
+    background-color: #B8A2A2;
+    opacity: 0.15;
+    margin-top: 2vh;
+    animation-duration: 2s;
+    animation-name: navLineAwayMorph;
+}
+
+.nav-initials-logo {
+    font-family: Bagnard, sans-serif;
+    font-size: 40px;
+    color: #B8A2A2;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    animation-duration: 4s;
+    animation-name: logoFadeIn;
 }
 
 @keyframes navButtonFadeIn {
@@ -66,6 +109,53 @@
 
 }
 
+@keyframes navContainerAwayMorph {
+    from {
+        padding-top: 5vh;
+    }
+
+    to {
+        padding-top: 2vh;
+    }
+}
+
+@keyframes navWrapperAwayMorph {
+    from {
+        width: 60%;
+    }
+
+    to {
+        width: 95%;
+    }
+}
+
+@keyframes navLineAwayMorph {
+    from {
+        width: 28%;
+        margin-top: 4vh;
+    }
+
+    to {
+        width: 40%;
+        margin-top: 2vh;
+    }
+}
+
+@keyframes logoFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
 @media (max-width:1440px) {
     .nav-wrapper {
         width: 65%;
@@ -77,6 +167,10 @@
 
     .nav-button a {
         font-size: 18px;
+    }
+
+    .nav-initials-logo {
+        font-size: 35px;
     }
 
     @keyframes navButtonFadeIn {
@@ -107,6 +201,28 @@
         }
     
     }
+    
+    @keyframes navWrapperAwayMorph {
+        from {
+            width: 65%;
+        }
+    
+        to {
+            width: 95%;
+        }
+    }
+    
+    @keyframes navLineAwayMorph {
+        from {
+            width: 31%;
+            margin-top: 4vh;
+        }
+    
+        to {
+            width: 40%;
+            margin-top: 2vh;
+        }
+    }
 }
 
 @media (max-width:800px) {
@@ -115,11 +231,17 @@
     }
 
     .nav-line {
-        width: 38%;
+        width: 35%;
     }
 
     .nav-button a {
         font-size: 15px;
+    }
+
+    .nav-initials-logo {
+        font-size: 25px;
+        top: 1.5%;
+        left: 1.5%;
     }
 
     @keyframes navButtonFadeIn {
@@ -146,9 +268,35 @@
     
         to {
             opacity: 0.15;
-            width: 38%;
+            width: 35%;
         }
     
+    }
+
+    .nav-line-away {
+        width: 45%;
+    }
+
+    @keyframes navWrapperAwayMorph {
+        from {
+            width: 70%;
+        }
+    
+        to {
+            width: 95%;
+        }
+    }
+    
+    @keyframes navLineAwayMorph {
+        from {
+            width: 35%;
+            margin-top: 4vh;
+        }
+    
+        to {
+            width: 45%;
+            margin-top: 2vh;
+        }
     }
 }
 
@@ -163,6 +311,12 @@
 
     .nav-button a {
         font-size: 12px;
+    }
+
+    .nav-initials-logo {
+        font-size: 20px;
+        top: 2%;
+        left: 2%;
     }
 
     @keyframes navButtonFadeIn {
@@ -193,6 +347,32 @@
         }
     
     }
+
+    .nav-line-away {
+        width: 55%;
+    }
+
+    @keyframes navWrapperAwayMorph {
+        from {
+            width: 75%;
+        }
+    
+        to {
+            width: 95%;
+        }
+    }
+    
+    @keyframes navLineAwayMorph {
+        from {
+            width: 42%;
+            margin-top: 4vh;
+        }
+    
+        to {
+            width: 55%;
+            margin-top: 2vh;
+        }
+    }
 }
 
 @media (max-width:400px) {
@@ -206,6 +386,12 @@
 
     .nav-button a {
         font-size: 11px;
+    }
+
+    .nav-initials-logo {
+        font-size: 15px;
+        top: 2%;
+        left: 2%;
     }
 
     @keyframes navButtonFadeIn {
@@ -235,5 +421,31 @@
             width: 45%;
         }
     
+    }
+
+    .nav-line-away {
+        width: 55%;
+    }
+
+    @keyframes navWrapperAwayMorph {
+        from {
+            width: 80%;
+        }
+    
+        to {
+            width: 95%;
+        }
+    }
+    
+    @keyframes navLineAwayMorph {
+        from {
+            width: 45%;
+            margin-top: 4vh;
+        }
+    
+        to {
+            width: 55%;
+            margin-top: 2vh;
+        }
     }
 }

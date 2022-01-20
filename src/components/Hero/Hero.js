@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Hero.css';
 import Typist from 'react-typist';
 
@@ -25,6 +25,7 @@ let statements = [
 ]
 
 function HeroBack() {
+
   return (
       <div className='hero-background'>
           <div className='hero-back-diagonal'/>

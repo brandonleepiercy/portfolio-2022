@@ -4,7 +4,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from 'react-router-dom';
 import Hero from "./pages/Hero/Hero";
 import Nav from "./components/Nav/Nav";
@@ -12,9 +11,10 @@ import UnderConstruction from './components/UnderConstruction/UnderConstruction'
 import "react-typist/dist/Typist.css";
 
 function App() {
+
   return(
     <Router>
-      <Nav/>
+        <Nav/>
       <Routes>
         <Route path="/" element={<Hero/>}/>
         <Route exact path="/about" element={<UnderConstruction/>}/>

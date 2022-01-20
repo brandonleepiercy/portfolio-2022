@@ -19,6 +19,11 @@
   src: url("./assets/fonts/Sonder/SonderRegular.woff") format("woff");
 }
 
+@font-face {
+  font-family: Bagnard;
+  src: url("./assets/fonts/Bagnard/BagnardSans.woff") format("woff");
+}
+
 body {
   margin: 0;
 }
