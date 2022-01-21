@@ -3,6 +3,7 @@ import './About.css';
 
 import SideBranding from '../../components/SideBranding/SideBranding';
 import AboutHeading from '../../components/AboutHeading/AboutHeading';
+import AboutBody from '../../components/AboutBody/AboutBody';
 
 function About() {
   return (
@@ -12,6 +13,7 @@ function About() {
           </div>
           <div className='about-middle-container'>
               <AboutHeading />
+              <AboutBody />
           </div>
           <div className='about-side-container'>
               <SideBranding left={false}/>
