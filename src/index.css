@@ -15,6 +15,11 @@
 }
 
 @font-face {
+  font-family: Satoshi-Light-Italic;
+  src: url('./assets/fonts/Satoshi/Satoshi-LightItalic.woff') format("woff");
+}
+
+@font-face {
   font-family: Sonder;
   src: url("./assets/fonts/Sonder/SonderRegular.woff") format("woff");
 }

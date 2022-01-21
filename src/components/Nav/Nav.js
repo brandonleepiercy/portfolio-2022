@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Nav.css';
 import { Link } from 'react-router-dom';
 
@@ -6,6 +6,18 @@ function Nav() {
 
   let [atHome, setAtHome] = useState(true);
   let [homeOrAbout, setHomeOrAbout] = useState(true);
+
+  useEffect(() => {
+    let path = window.location.pathname;
+
+    if (path == '/about') {
+      setAtHome(false);
+      setHomeOrAbout(true);
+    } else if (path == '/projects' || '/contact' || '/resume') {
+      setAtHome(false);
+      setHomeOrAbout(false);
+    }
+  }, []);
 
   const handleClick = (homeOrNot, homeOrAbout) => {
     setAtHome(homeOrNot);

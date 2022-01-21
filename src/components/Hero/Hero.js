@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Hero.css';
 import Typist from 'react-typist';
 

@@ -5,10 +5,13 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Hero from "./pages/Hero/Hero";
-import Nav from "./components/Nav/Nav";
-import UnderConstruction from './components/UnderConstruction/UnderConstruction';
 import "react-typist/dist/Typist.css";
+
+import Nav from "./components/Nav/Nav";
+import Hero from "./pages/Hero/Hero";
+import UnderConstruction from './components/UnderConstruction/UnderConstruction';
+import About from './pages/About/About';
+
 
 function App() {
 
@@ -16,7 +19,7 @@ function App() {
     <Router>
       <Nav/>
       <Routes>
-        <Route path="/about" element={<UnderConstruction/>}/>
+        <Route path="/about" element={<About/>}/>
         <Route path="/projects" element={<UnderConstruction/>}/>
         <Route path="/contact" element={<UnderConstruction/>}/>
         <Route path="/resume" element={<UnderConstruction/>}/>
