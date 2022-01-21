@@ -3,6 +3,7 @@
     width: 100vw;
     display: flex;
     overflow: hidden;
+    background-color: #F5F5F5;
 }
 
 .about-side-container {
