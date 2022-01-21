@@ -20,6 +20,11 @@
 }
 
 @font-face {
+  font-family: Satoshi-Medium;
+  src: url('./assets/fonts/Satoshi/Satoshi-Medium.woff') format("woff");
+}
+
+@font-face {
   font-family: Sonder;
   src: url("./assets/fonts/Sonder/SonderRegular.woff") format("woff");
 }

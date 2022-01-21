@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 
 import SideBranding from '../../components/SideBranding/SideBranding';
+import AboutHeading from '../../components/AboutHeading/AboutHeading';
 
 function About() {
   return (
@@ -10,7 +11,7 @@ function About() {
               <SideBranding left={true}/>
           </div>
           <div className='about-middle-container'>
-
+              <AboutHeading />
           </div>
           <div className='about-side-container'>
               <SideBranding left={false}/>

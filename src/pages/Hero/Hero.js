@@ -1,6 +1,8 @@
 import React from 'react';
-import HeroComponent from '../../components/Hero/Hero.js';
 import './Hero.css';
+
+import HeroComponent from '../../components/Hero/Hero.js';
+
 
 function Hero() {
   return (
@@ -8,6 +10,6 @@ function Hero() {
             <HeroComponent/>
       </div>
   );
-}
+};
 
 export default Hero;

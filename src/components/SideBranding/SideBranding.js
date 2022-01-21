@@ -11,7 +11,6 @@ function SideBranding(props) {
               BRANDON LEE PIERCY
             </div>
             <div className='side-brand-line'>
-
             </div>
         </div>
     );
