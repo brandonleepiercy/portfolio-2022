@@ -1,6 +1,8 @@
 import React from 'react';
-import { ClockLoader } from 'react-spinners';
 import './UnderConstruction.css';
+
+import { ClockLoader } from 'react-spinners';
+
 
 function UnderConstruction() {
   return (

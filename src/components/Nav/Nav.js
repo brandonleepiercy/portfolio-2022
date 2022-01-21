@@ -1,11 +1,32 @@
-import React, { useState } from 'react';
-import './Nav.css';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import './Nav.css';
 
 function Nav() {
 
+  //Instantiating state variables manage appearance of nav bar based on whether the user is at home, about, or project and create.
+
   let [atHome, setAtHome] = useState(true);
   let [homeOrAbout, setHomeOrAbout] = useState(true);
+
+  //If the user manually types in a path the nav bar will check the path ending on load to render the right version
+
+  useEffect(() => {
+    let path = window.location.pathname;
+
+    if (path === '/') {
+      setAtHome(true);
+      setHomeOrAbout(true);
+    } else if (path === '/about') {
+      setAtHome(false);
+      setHomeOrAbout(true);
+    } else if (path === '/projects' || '/contact' || '/resume') {
+      setAtHome(false);
+      setHomeOrAbout(false);
+    }
+  }, []);
+
+  //Click handler to handle state when navigating through the site via the navbar
 
   const handleClick = (homeOrNot, homeOrAbout) => {
     setAtHome(homeOrNot);

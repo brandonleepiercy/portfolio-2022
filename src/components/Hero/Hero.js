@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Hero.css';
+
 import Typist from 'react-typist';
 
+//Statements for react-typist
 let statements = [
   "full stack software engineer.",
   "UI/UX designer.",
@@ -22,10 +24,9 @@ let statements = [
   " mechanic.",
   " race car driver.",
   " business owner."
-]
+];
 
 function HeroBack() {
-
   return (
       <div className='hero-background'>
           <div className='hero-back-diagonal'/>
@@ -83,6 +84,6 @@ function HeroBack() {
           </div>
       </div>
   );
-}
+};
 
 export default HeroBack;
