@@ -1,0 +1,135 @@
+.about-body {
+    position: absolute;
+    white-space: nowrap;
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 20px;
+    color: #977777;
+    margin-top: 3vh;
+}
+
+.career {
+    top: 13.542vh;
+    left: -10vw;
+    animation-duration: 3s;
+    animation-name: careerBlurbFadeIn;
+}
+
+.racing {
+    top: 2vh;
+    left:35vw;
+    text-align: right;
+    animation-duration: 4.5s;
+    animation-name: racingBlurbFadeIn;
+}
+
+.side-hustles {
+    top: 36.3vh;
+    text-align: center;
+    left:8vw;
+    animation-duration: 5s;
+    animation-name: sideHustlesBlurbFadeIn;
+}
+
+@keyframes careerBlurbFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes racingBlurbFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    65% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes sideHustlesBlurbFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    45% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width:1980px) {
+    .about-body {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:1440px) {
+    .career{
+        left: -15vw;
+    }
+
+    .racing {
+        left: 27vh;
+    }
+
+    .side-hustles {
+        right:1vw;
+    }
+}
+
+@media (max-width:1280px) {
+    .career{
+        top: 3vh;
+        left: -17vw;
+    }
+
+    .racing {
+        top:20vh;
+        left: 15vh;
+    }
+
+    .side-hustles {
+        right: 0;
+    }
+}
+
+@media (max-width:1024px) {
+    .about-body {
+        white-space: normal;
+    }
+}
+
+@media (max-width:768px) {
+    .side-hustles {
+        top: 40vh;
+    }
+
+    .about-body {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 568px) {
+    .about-body {
+        font-size: 13px;
+    }
+
+    .racing {
+        left: 28vw;
+    }
+}
