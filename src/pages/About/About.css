@@ -20,3 +20,48 @@
     padding-top: 15vh;
     padding-left: 5vw;
 }
+
+.floating-image-container {
+    position: fixed;
+    display: flex;
+    height: min-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top:45vh;
+    left:55vw;
+    z-index: 0;
+    animation-duration: .5s;
+    animation-name: floatingImageFadeIn;
+}
+
+@keyframes floatingImageFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width:1440px) {
+    .floating-image-container {
+        left: 5vw;
+    }
+}
+
+@media (max-width:1030px) {
+    .floating-image-container {
+        left: -2vw;
+        top: 55vh;
+    }
+}
+
+@media (max-width:450px) {
+    .floating-image-container {
+        left: 50vw;
+        top: 15vh;
+    }
+}
+

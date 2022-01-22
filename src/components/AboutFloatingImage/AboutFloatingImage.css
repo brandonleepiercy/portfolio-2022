@@ -1,0 +1,47 @@
+.floating-image {
+    opacity: 0.5;
+    height: 30vw;
+    margin: 0;
+    border-radius: 15px;
+    transform: rotate(270deg);
+}
+
+.floating-image-text {
+    font-family: Satoshi-Medium, sans-serif;
+    font-size: 130px;
+    color: #977777;
+    opacity: 0.2;
+    margin: 0;
+    white-space: nowrap;
+    transform: translateY(10vh);
+}
+
+
+@media (max-width:1935px) {
+    .floating-image {
+        height: 37vw;
+    }
+
+    .floating-image-text{
+        font-size: 100px;
+        transform: translateY(9.5vh);
+    }
+}
+
+@media (max-width:1030px) {
+    .floating-image-text {
+        font-size: 40px;
+        transform: translateY(5vh);
+    }
+}
+
+@media (max-width:450px) {
+    .floating-image-text {
+        font-size: 20px;
+        transform: translateY(3vh);
+    }
+
+    .floating-image{
+        height: 80vw;
+    }
+}
