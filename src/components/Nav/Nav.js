@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
 
-import Resume from '../../assets/resume/RESUME.pdf';
-
 function Nav() {
 
   //Instantiating state variables manage appearance of nav bar based on whether the user is at home, about, or project and create.
@@ -58,7 +56,7 @@ function Nav() {
             </div>
 
             <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>
-              <a href={Resume} download={'Brandon-Piercy-Resume-2022.pdf'}>Resume</a>
+              <Link to="/files/RESUME.pdf" target="_blank" download>Resume</Link>
             </div>
 
           </div>
