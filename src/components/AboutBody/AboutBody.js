@@ -13,15 +13,13 @@ function AboutBody() {
                 <br/>
                 Fluent with Java, Spring Boot, AWS DynamoDB, AWS RDS, AWS Lambdas, MySQL and MongoDB for the Back-End.
                 <br/>
-                Extensive experience with REST API architecture
-                <br/>
-                and working in an AGILE environment.
+                Extensive experience with REST API architecture and working in an AGILE environment.
             </div>
         </FloatingComponent>
 
         <FloatingComponent>
             <div className='about-body racing'>
-                I am also a passionate home mechanic and weekend race car driver.
+                I am a passionate home mechanic and weekend race car driver.
                 <br/>
                 My current projects include 
                 <br/>
@@ -35,7 +33,7 @@ function AboutBody() {
 
         <FloatingComponent>
             <div className='about-body side-hustles'>
-                I'm also the co-founder and president of two small businesses.
+                I'm the co-founder and president of two small businesses.
                 <br/>
                 One is a media brand focused on free digital content and ad
                 revenue,<br/>the other is an actively managed real estate investment 
