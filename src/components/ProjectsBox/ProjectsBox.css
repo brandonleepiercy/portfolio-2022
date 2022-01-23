@@ -115,5 +115,6 @@
 @media (max-width: 450px) {
     .project-box-decoration {
         font-size: 40px;
+        top: -20%;
     }
 }
