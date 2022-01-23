@@ -1,0 +1,39 @@
+.projects-heading {
+    font-family: Satoshi-Medium, sans-serif;
+    font-size: 80px;
+    color: #879777;
+    text-align: right;
+    padding-right: 10vw;
+    animation-duration: 3.3s;
+    animation-name: projectHeadingSlideIn;
+}
+
+@keyframes projectHeadingSlideIn {
+    from {
+        opacity: 0;
+        margin-left: 90%;
+    }
+
+    to {
+        opacity: 1;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width:1440px) {
+    .projects-heading {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:1024px) {
+    .projects-heading {
+        font-size: 45px;
+    }   
+}
+
+@media (max-width:500px) {
+    .projects-heading {
+        font-size: 20px;
+    }
+}

@@ -20,17 +20,31 @@
 .side-brand-name {
     font-family: Satoshi-Light-Italic, sans-serif;
     font-size: 20px;
-    color: #B8A2A2;
     opacity: 60%;
     white-space: nowrap;
+}
+
+.brand-name-red {
+    color: #B8A2A2;
+}
+
+.brand-name-green {
+    color: #ADB8A2;
 }
 
 .side-brand-line {
     width: 100%;
     height: 2.5px;
-    background-color: #B8A2A2;
     opacity: 15%;
     margin-top: 2vw;
+}
+
+.brand-line-red {
+    background-color: #B8A2A2;
+}
+
+.brand-line-green {
+    background-color: #ADB8A2;
 }
 
 @keyframes leftBrandSlideUp {
