@@ -33,6 +33,8 @@
     font-size: 180px;
     opacity: 0.2;
     z-index: -1;
+    animation-duration: 2.3s;
+    animation-name: projectBoxDecorationFadeIn;
 }
 
 
@@ -59,10 +61,30 @@
 @keyframes projectScreenFadeIn {
     from {
         background-color: #ADB8A2;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
     }
 
     to {
+        opacity: 1;
         background-color: #F5F5F5;
+    }
+}
+
+@keyframes projectBoxDecorationFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }
 
@@ -93,5 +115,6 @@
 @media (max-width: 450px) {
     .project-box-decoration {
         font-size: 40px;
+        top: -20%;
     }
 }
