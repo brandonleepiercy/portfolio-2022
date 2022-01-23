@@ -126,10 +126,15 @@
 
 @media (max-width: 568px) {
     .about-body {
-        font-size: 13px;
+        font-size: 8px;
     }
 
     .racing {
-        left: 28vw;
+        top: 7vh;
+        left: 32vw;
+    }
+
+    .side-hustles {
+        top: 25vh;
     }
 }
