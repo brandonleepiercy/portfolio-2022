@@ -1,0 +1,45 @@
+.projects-back {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    background-color: #F5F5F5;
+}
+
+.projects-side-container {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-middle-container {
+    height: 100%;
+    width: 60%;
+    padding-top: 10vh;
+}
+
+.projects-diagonal {
+    position: fixed;
+    width: 100%;
+    height: 70%;
+    background-color: #ADB8A2;
+    opacity: 0.25;
+    transform: skewY(9.3deg);
+    top: 55vh;
+    animation-duration:1.5s;
+    animation-name: projectDiagonalSlideIn;
+}
+
+@keyframes projectDiagonalSlideIn {
+    from {
+        right: 100%;
+        opacity: 0;
+    }
+
+    to {
+        right: 0;
+        opacity: 0.25;
+    }
+}

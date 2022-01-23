@@ -10,14 +10,14 @@ function About() {
   return (
       <div className='about-back'>
           <div className='about-side-container'>
-              <SideBranding left={true}/>
+              <SideBranding left={true} atAbout={true}/>
           </div>
           <div className='about-middle-container'>
               <AboutHeading />
               <AboutBody />
           </div>
           <div className='about-side-container'>
-              <SideBranding left={false}/>
+              <SideBranding left={false} atAbout={true}/>
           </div>
           <AboutFloatingImage/>
       </div>

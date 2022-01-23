@@ -11,6 +11,7 @@ import Nav from "./components/Nav/Nav";
 import Hero from "./pages/Hero/Hero";
 import UnderConstruction from './components/UnderConstruction/UnderConstruction';
 import About from './pages/About/About';
+import Projects from './pages/Projects/Projects';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <Nav/>
       <Routes>
         <Route path="/about" element={<About/>}/>
-        <Route path="/projects" element={<UnderConstruction/>}/>
+        <Route path="/projects" element={<Projects/>}/>
         <Route path="/contact" element={<UnderConstruction/>}/>
         <Route path="/resume" element={<UnderConstruction/>}/>
         <Route path="/" element={<Hero/>}/>

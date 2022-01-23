@@ -1,0 +1,97 @@
+.project-box-container {
+    position: fixed;
+    width: 50vw;
+    height: 45vh;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    background-color: #ADB8A2;
+    animation-duration: 2.3s;
+    animation-name:projectBoxFadeIn;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.project-box-screen {
+    height: 92%;
+    width: 96%;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    animation-duration: 2.3s;
+    animation-name: projectScreenFadeIn;
+}
+
+.project-box-decoration {
+    position: absolute;
+    color: #ADB8A2;
+    top: -32%;
+    left: 10%;
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 180px;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+
+@keyframes projectBoxFadeIn {
+    0% {
+        opacity: 0;
+        width: 5vw;
+        height: 0vh;
+    }
+
+    40% {
+        height: 45vh;
+        width: 5vw;
+    }
+
+
+    100% {
+        opacity: 1;
+        width: 50vw;
+    }
+}
+
+
+@keyframes projectScreenFadeIn {
+    from {
+        background-color: #ADB8A2;
+    }
+
+    to {
+        background-color: #F5F5F5;
+    }
+}
+
+@media (max-width: 2000px) {
+    .project-box-decoration {
+        font-size: 130px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .project-box-decoration {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-box-decoration {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 450px) {
+    .project-box-decoration {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .project-box-decoration {
+        font-size: 40px;
+    }
+}

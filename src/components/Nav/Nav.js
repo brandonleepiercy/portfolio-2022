@@ -56,7 +56,7 @@ function Nav() {
             </div>
 
             <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>
-              <Link to='/RESUME.pdf' target="_blank" download>Resume</Link>
+              <Link to='/RESUME.pdf' target="_blank" download='Brandon-Piercy-Resume'>Resume</Link>
             </div>
 
           </div>
