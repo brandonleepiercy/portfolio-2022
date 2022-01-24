@@ -1,0 +1,19 @@
+.contact-heading-wrapper {
+    font-family: Satoshi-Medium, sans-serif;
+    font-size: 3vw;
+    color: #879777;
+    animation-duration: 2s;
+    animation-name: contactHeadingSlideIn;
+}
+
+@keyframes contactHeadingSlideIn {
+    from {
+        margin-right: 60%;
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        margin-right: 0%;
+    }
+}

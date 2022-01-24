@@ -18,4 +18,31 @@
     height: 100%;
     width: 60%;
     padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-decorative-text {
+    position: fixed;
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 5.5vw;
+    color: #ADB8A2;
+    transform: rotate(90deg);
+    top: 43%;
+    left: 70%;
+    z-index: 0;
+    white-space: nowrap;
+    opacity: 0.3;
+    animation-name:contactDecorativeTextFadeIn;
+    animation-duration:3s;
+}
+
+@keyframes contactDecorativeTextFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.3;
+    }
 }

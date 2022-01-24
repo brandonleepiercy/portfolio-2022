@@ -2,21 +2,20 @@
     font-family: Satoshi-Medium, sans-serif;
     font-size: 80px;
     color: #879777;
-    text-align: right;
-    padding-right: 10vw;
     animation-duration: 3.3s;
     animation-name: projectHeadingSlideIn;
+    margin-right: 15vw;
 }
 
 @keyframes projectHeadingSlideIn {
     from {
         opacity: 0;
-        margin-left: 90%;
+        margin-right: 5vw;
     }
 
     to {
         opacity: 1;
-        margin-left: 0%;
+        margin-right: 15vw;
     }
 }
 
