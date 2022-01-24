@@ -9,9 +9,9 @@ import "react-typist/dist/Typist.css";
 
 import Nav from "./components/Nav/Nav";
 import Hero from "./pages/Hero/Hero";
-import UnderConstruction from './components/UnderConstruction/UnderConstruction';
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
+import Contact from './pages/Contact/Contact';
 
 
 function App() {
@@ -22,8 +22,7 @@ function App() {
       <Routes>
         <Route path="/about" element={<About/>}/>
         <Route path="/projects" element={<Projects/>}/>
-        <Route path="/contact" element={<UnderConstruction/>}/>
-        <Route path="/resume" element={<UnderConstruction/>}/>
+        <Route path="/contact" element={<Contact/>}/>
         <Route path="/" element={<Hero/>}/>
       </Routes>
     </Router>

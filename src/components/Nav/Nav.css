@@ -52,21 +52,23 @@
     white-space: nowrap;
 }
 
-.nav-initials-logo {
+.nav-initials-logo a{
     font-family: Bagnard, sans-serif;
     font-size: 40px;
     position: fixed;
+    text-decoration: none;
     top: 1%;
     left: 1%;
     animation-duration: 4s;
     animation-name: logoFadeIn;
+    z-index: 20;
 }
 
-#nav-logo-red {
+#nav-logo-red a {
     color: #B8A2A2;
 }
 
-#nav-logo-green {
+#nav-logo-green a {
     color: #ADB8A2;
 }
 
