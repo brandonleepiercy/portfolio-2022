@@ -33,12 +33,11 @@ function AboutBody() {
 
         <FloatingComponent>
             <div className='about-body side-hustles'>
-                I'm the co-founder and president of two small businesses.
-                <br/>
-                One is a media brand focused on free digital content and ad
-                revenue,<br/>the other is an actively managed real estate investment 
-                fund. <br/>I've always had a passion for design, finance, motorsport, and 
-                technology. <br/>This is the recipe for who I am today.
+                I'm the president and co-founder of two small businesses.
+                <br/>One is a digital media warehouse for multiple brands focused on free digital content and ad revenue,
+                <br/>The other is an actively managed real estate investment fund. 
+                <br/>I've always had a passion for design, finance, motorsport, and technology. 
+                <br/>This is the recipe for who I am today.
             </div>
         </FloatingComponent>
       </div>

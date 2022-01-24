@@ -35,12 +35,12 @@ function Nav() {
 
   return (
     <div>
-      {atHome ? <div></div> : <div className='nav-initials-logo' id={homeOrAbout ? 'nav-logo-red' : 'nav-logo-green'}>BP</div>}
+      {atHome ? <div></div> : <div className='nav-initials-logo' id={homeOrAbout ? 'nav-logo-red' : 'nav-logo-green'}><Link to="/" onClick={() => {handleClick(true,true)}}>BP</Link></div>}
       <div className={atHome ? 'nav-container' : 'nav-container-away'}>
           <div className={atHome ? 'nav-wrapper' : 'nav-wrapper-away'}>
 
             <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>
-              <Link onClick={atHome ? () => console.log(): () => handleClick(true, true)} to="/">Home</Link>
+              <Link onClick={atHome ? () => null: () => handleClick(true, true)} to="/">Home</Link>
             </div>
 
             <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>                
@@ -48,11 +48,11 @@ function Nav() {
             </div>
 
             <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>
-              <Link onClick={homeOrAbout? () => handleClick(false, false) : console.log()} to="/projects">Projects</Link>
+              <Link onClick={homeOrAbout? () => handleClick(false, false) : null} to="/projects">Projects</Link>
             </div>
 
             <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>
-              <Link onClick={homeOrAbout? () => handleClick(false, false) : console.log()} to="/contact">Contact</Link>
+              <Link onClick={homeOrAbout? () => handleClick(false, false) : null} to="/contact">Contact</Link>
             </div>
 
             <div className={homeOrAbout ? 'nav-button nav-red' : 'nav-button nav-green'}>
