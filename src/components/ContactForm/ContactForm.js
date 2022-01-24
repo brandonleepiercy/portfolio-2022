@@ -16,7 +16,7 @@ function ContactForm() {
         } else if (message === null ||message.length < 1) {
             alert('Please add a message.');
         } else if (name !== null && email !== null && subject !== null && message !== null) {
-            console.log('successful submission attempt');
+            console.log('successful submission attempt, attempting to send mail via nodemailer now.')
         } else {
             console.log('Some type of error occured. Please refresh.');
         }
