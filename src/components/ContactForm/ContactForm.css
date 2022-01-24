@@ -8,6 +8,22 @@
     left: 50%;
     border-radius: 20px;
     transform: translate(-50%, -50%);
+    animation-name: contactFormFadeIn;
+    animation-duration: 2s;
+    z-index: 2;
+}
+
+@keyframes contactFormFadeIn {
+    from {
+        opacity: 0;
+        scale: 0.95;
+    }
+
+    to {
+        opacity: 0.5;
+        scale: 1;
+    }
+    
 }
 
 .contact-form-container form {
@@ -25,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .contact-name-input {
@@ -80,7 +97,7 @@
     border-radius: 10px;
     background-color: #F5F5F5;
     font-family: Satoshi-Regular, sans-serif;
-    font-size: 0.8vw;
+    font-size: 1vw;
     resize: none;
 }
 
@@ -103,4 +120,9 @@
     border-radius: 10px;
     font-family: Satoshi-Regular, sans-serif;
     font-size: 0.8vw;
+    transition: 0.5s;
+}
+
+.contact-submit-button:hover {
+    font-size: 0.9vw;
 }
