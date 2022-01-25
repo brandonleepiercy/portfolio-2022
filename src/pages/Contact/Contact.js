@@ -23,7 +23,6 @@ function Contact() {
             <SideBranding left={false} atAbout={false}/>
         </div>
         <div className='contact-decorative-text'>
-            <Typist.Delay ms={2500}/>
             <Typist>work with me</Typist>
         </div>
     </div>

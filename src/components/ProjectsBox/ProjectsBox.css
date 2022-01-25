@@ -37,6 +37,204 @@
     animation-name: projectBoxDecorationFadeIn;
 }
 
+.project-screen-home-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screen-home-index {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    border-bottom: solid #ADB8A2;
+    align-items: center;
+}
+
+.screen-index-title {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    color: #879777;
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 1vw;
+}
+
+.screen-index-size {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    color: #879777;
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 1vw;
+}
+
+.screen-home-project-row {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-bottom: solid #ADB8A2 2px;
+    transition: 2s;
+    animation-duration: 3s;
+    animation-name: screenContentFadeIn;
+    z-index: 5;
+}
+
+.project-screen-selected-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name:projectScreenSelectedFadeIn;
+    animation-duration:2s;
+}
+
+@keyframes projectScreenSelectedFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.project-selected-top-row {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-selected-back-button {
+    width: 30%;
+}
+
+.back-button-text {
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 3vw;
+    color: #ADB8A2;
+    margin: 0;
+    transform: scale(.5, 1);
+    height: 50%;
+    width: fit-content;
+    padding-left: .5vw;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.back-button-text:hover {
+    text-decoration: underline 2px;
+    padding-left: 0;
+}
+
+.project-selected-title {
+    width: 70%;
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 2vw;
+    color: #879777;
+}
+
+@keyframes screenContentFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.screen-home-project-row:hover {
+    background-color: #adb8a259;
+}
+
+.screen-project-title-wrapper {
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 1vw;
+    color: #879777;
+    width: 67%;
+    padding-left: 12%;
+}
+
+.screen-project-size-wrapper {
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 1vw;
+    color: #879777;
+}
+
+.project-selected-content-row {
+    display: flex;
+    height: 85%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project-selected-image-wrapper {
+    width: 13vw;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.project-selected-image-wrapper img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.project-selected-body-container {
+    width: 65%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project-selected-description {
+    width: 100%;
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 0.8vw;
+    color: #879777;
+}
+
+.project-selected-technologies {
+    width: 100%;
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 0.8vw;
+    color: #879777;
+}
+
+.project-selected-links-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-link, .deployment-link {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.github-link a, .deployment-link a {
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 0.8vw;
+    color: #879777;
+}
 
 @keyframes projectBoxFadeIn {
     0% {

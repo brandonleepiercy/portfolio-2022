@@ -1,8 +1,7 @@
 .contact-form-container {
     height: 50vh;
     width: 65vw;
-    background-color: #ADB8A2;
-    opacity: 50%;
+    background-color: #adb8a29d;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -20,7 +19,7 @@
     }
 
     to {
-        opacity: 0.5;
+        opacity: 1;
         scale: 1;
     }
     
