@@ -8,9 +8,10 @@ function PBScreenRow(props) {
     let { id } = props;
     let { setSelected } = props;
     let { setHome } = props;
+    let { returning } = props;
 
     return (
-        <div className='screen-home-project-row' value={id} key={id} id={id} onClick={(event) => {
+        <div className={returning ? 'screen-home-project-row-no-fade' : 'screen-home-project-row'} value={id} key={id} id={id} onClick={(event) => {
             setSelected(event.target.id);
             setHome(false);
         }}>

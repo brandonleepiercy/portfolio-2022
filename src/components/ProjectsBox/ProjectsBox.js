@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './ProjectsBox.css';
 
 import Typist from 'react-typist';
@@ -62,6 +62,7 @@ function ProjectsBox() {
 
   let [home, setHome] = useState(true);
   let [selected, setSelected] = useState(-1);
+  let [returning, setReturning] = useState(false);
 
   return (
       <div className='project-box-container'>
@@ -71,7 +72,7 @@ function ProjectsBox() {
             WORK
           </Typist>
         </div>
-        <div className='project-box-screen'>
+        <div className={returning ? 'project-box-screen-no-fade' : 'project-box-screen'}>
           {home ? 
           <div className='project-screen-home-wrapper'>
             <div className='screen-home-index'>
@@ -84,10 +85,10 @@ function ProjectsBox() {
               </div>
             </div>
             {projects.map((project) => (
-              <PBScreenRow title={project.title} size={project.size} key={project.id} id={project.id} setSelected={setSelected} setHome={setHome}/>
+              <PBScreenRow title={project.title} size={project.size} key={project.id} id={project.id} setSelected={setSelected} setHome={setHome} returning={returning}/>
             ))}
           </div> : 
-          <PBScreenSelected project={projects[selected]} setHome={setHome}  setSelected={setSelected}/>}
+          <PBScreenSelected project={projects[selected]} setHome={setHome}  setSelected={setSelected} setReturning={setReturning}/>}
         </div>
       </div>
   );

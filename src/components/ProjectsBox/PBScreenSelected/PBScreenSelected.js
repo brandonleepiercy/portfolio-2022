@@ -5,8 +5,8 @@ function PBScreenSelected(props) {
 
     let { setHome } = props;
     let { setSelected } = props;
+    let { setReturning } = props;
     let { project } = props;
-
 
     useEffect(() => {
         console.log(project);
@@ -17,6 +17,7 @@ function PBScreenSelected(props) {
             <div className='project-selected-top-row'>
                 <div className='project-selected-back-button' onClick={() => {
                     setSelected('');
+                    setReturning(true);
                     setHome(true);
                 }}>
                     <p className='back-button-text'>&lt;&lt;</p>
