@@ -193,7 +193,7 @@
         font-size: 18px;
     }
 
-    .nav-initials-logo {
+    .nav-initials-logo a {
         font-size: 35px;
     }
 
@@ -262,7 +262,7 @@
         font-size: 15px;
     }
 
-    .nav-initials-logo {
+    .nav-initials-logo a {
         font-size: 25px;
         top: 1.5%;
         left: 1.5%;
@@ -324,7 +324,7 @@
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
     .nav-wrapper {
         width: 75%;
     }
@@ -337,7 +337,7 @@
         font-size: 12px;
     }
 
-    .nav-initials-logo {
+    .nav-initials-logo a {
         font-size: 20px;
         top: 2%;
         left: 2%;
@@ -412,7 +412,7 @@
         font-size: 11px;
     }
 
-    .nav-initials-logo {
+    .nav-initials-logo a {
         font-size: 15px;
         top: 2%;
         left: 2%;

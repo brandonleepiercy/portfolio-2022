@@ -22,3 +22,22 @@
         margin-right: 0%;
     }
 }
+
+@media (max-width: 800px) {
+    .contact-heading-wrapper {
+        font-size: 4vw;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .contact-heading-wrapper {
+        top: -25vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .contact-heading-wrapper {
+        font-size: 4.3vw;
+    }
+}

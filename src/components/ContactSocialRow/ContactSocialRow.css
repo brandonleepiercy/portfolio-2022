@@ -29,3 +29,39 @@
     transition: 2s;
     scale: 1.2;
 }
+@media (max-width: 1030px) {
+    .contact-social-icon {
+        transform: scale(2.2);
+    }
+
+    .contact-social-icon:hover {
+        transition: 2s;
+        scale: 2.4;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact-social-icon {
+        transform: scale(3);
+    }
+
+    .contact-social-icon:hover {
+        transition: 2s;
+        scale: 3.3;
+    }
+}
+
+@media (max-width:600px) {
+    .social-row-container {
+        top: 28vh;
+    }
+
+    .contact-social-icon {
+        transform: scale(5);
+    }
+
+    .contact-social-icon:hover {
+        transition: 2s;
+        scale: 5.5;
+    }
+}

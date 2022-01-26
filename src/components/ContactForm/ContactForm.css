@@ -149,3 +149,152 @@
 .contact-submit-button:hover {
     font-size: 0.9vw;
 }
+
+@media (max-width: 1450px) {
+    .contact-name-input {
+        font-size: 1.2vw;
+    }
+
+    .contact-email-input {
+        font-size: 1.2vw;
+    }
+
+    .contact-subject-input {
+        font-size: 1.2vw;
+    }
+
+    .contact-message-input {
+        font-size: 1.2vw;
+    }
+}
+
+@media (max-width: 1030px) {
+    .contact-name-input {
+        font-size: 1.5vw;
+    }
+
+    .contact-email-input {
+        font-size: 1.5vw;
+    }
+
+    .contact-subject-input {
+        font-size: 1.5vw;
+    }
+
+    .contact-message-input {
+        font-size: 1.5vw;
+    }
+
+    .contact-submit-button {
+        font-size: 1.2vw;
+        width: 15%;
+    }
+
+    .contact-submit-button:hover {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 780px) {
+    .contact-name-input {
+        font-size: 1.8vw;
+    }
+
+    .contact-email-input {
+        font-size: 1.8vw;
+    }
+
+    .contact-subject-input {
+        font-size: 1.8vw;
+    }
+
+    .contact-message-input {
+        font-size: 1.8vw;
+    }
+
+    .contact-submit-button {
+        font-size: 1.5vw;
+        width: 20%;
+    }
+
+    .contact-submit-button:hover {
+        font-size: 1.8vw;
+    }
+
+    .message-sent-confirmation { 
+        top: -5vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-form-container {
+        height: 65vh;
+        width: 80vw;
+    }
+
+    .message-sent-confirmation {
+        left: 27vw;
+    }
+
+    .contact-name-input {
+        font-size: 2.5vw;
+    }
+
+    .contact-email-input {
+        font-size: 2.5vw;
+    }
+
+    .contact-subject-input {
+        font-size: 2.5vw;
+    }
+
+    .contact-message-input {
+        font-size: 2.5vw;
+    }
+
+    .contact-submit-button {
+        font-size: 2vw;
+        width: 23%;
+    }
+
+    .contact-submit-button:hover {
+        font-size: 2.2vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .contact-form-container {
+        height: 65vh;
+        width: 95vw;
+    }
+
+    .contact-name-input {
+        font-size: 3.5vw;
+    }
+
+    .contact-email-input {
+        font-size: 3.5vw;
+    }
+
+    .contact-subject-input {
+        font-size: 3.5vw;
+    }
+
+    .contact-message-input {
+        font-size: 3.5vw;
+    }
+
+    .contact-submit-button {
+        font-size: 3vw;
+        width: 28%;
+    }
+
+    .contact-submit-button:hover {
+        font-size: 3.3vw;
+    }
+
+    .message-sent-confirmation {
+        left: 33vw;
+        font-size: 5vw;
+    }
+}
