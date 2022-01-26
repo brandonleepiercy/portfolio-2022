@@ -34,6 +34,12 @@
     animation-name: projectDiagonalSlideIn;
 }
 
+@media (max-width: 450px) {
+    .projects-middle-container {
+        padding-top: 6.5vh;
+    }
+}
+
 @keyframes projectDiagonalSlideIn {
     from {
         right: 100%;
