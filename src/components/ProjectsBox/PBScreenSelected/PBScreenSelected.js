@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function PBScreenSelected(props) {
 
@@ -7,10 +7,6 @@ function PBScreenSelected(props) {
     let { setSelected } = props;
     let { setReturning } = props;
     let { project } = props;
-
-    useEffect(() => {
-        console.log(project);
-    }, [])
 
     return (
         <div className='project-screen-selected-wrapper' id={project.id}>
@@ -44,11 +40,11 @@ function PBScreenSelected(props) {
 
                     {project.public ? 
                     <div className='project-selected-links-container'>
-                        <div className='github-link'>
+                        <div className='github-link project-link'>
                             <a href={project.githubLink} target="_blank">Github</a>
                         </div>
 
-                        <div className='deployment-link'>
+                        <div className='deployment-link project-link'>
                             <a href={project.deployment} target='_blank'>Deployment</a>
                         </div>
                     </div>

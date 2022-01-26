@@ -15,7 +15,7 @@ const projects = [
     githubLink: 'https://github.com/brandonleepiercy/portfolio-2022',
     deployment: 'https://brandon.im/',
     img: 'https://i.imgur.com/Ur1WnFb.png',
-    description: 'My revised portfolio for 2022. Done in quite a hurry and still evolving but I am much happier with it now than it was. Tried to focus on pleasing colors and modern 3-dimensonal effects. Designed and developed myself.',
+    description: "My revised portfolio for 2022. Done in quite a hurry and it's still evolving, but I'm much happier with it's current form. I tried to focus on universal pleasing colors and modern 3-dimensonal effects. Designed and developed myself.",
     technology: 'React.js, Node.js, Express, AWS Elastic Beanstalk, Amplify, AWS-SDK and SES'
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     size: '83 KB',
     public: false,
     img: 'https://i.imgur.com/GS62PDv.png',
-    description: 'Internal backend system ported from AWS Lambdas/DynamoDB to a Java/Gradle/Spring Boot backend hosted on AWS Elastic Beanstalk, via AWS CodePipeline & AWS RDS, developed in a team of 3. The Cognizant AWS account that this is hosted on is not public.',
+    description: 'Internal backend system ported from AWS Lambdas/DynamoDB to a Java/Gradle/Spring Boot/SQL backend hosted on AWS Elastic Beanstalk, via AWS CodePipeline & AWS RDS, developed in a team of 3. The Cognizant AWS account that this is hosted on is not public.',
     technology: 'Java, Gradle, Spring Boot, AWS Elastic Beanstalk, CodePipeline, RDS, Cognito'
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     size: '10.32 MB',
     public: false,
     img: 'https://i.imgur.com/inEUFED.png',
-    description: 'Picture sharing social media site developed in a 4 week cycle with 4 pair programmers. Responsible for coding front-end components and testing, as well as making calls to the back-end to route information. Also responsible for delivering presentations to relevant stakeholders at the end of sprints. The Cognizant AWS account that this is hosted on is not public.',
+    description: 'Picture sharing social media site developed in a 4 week cycle with 4 pair programmers. Responsible for coding front-end components and testing, as well as making calls to the back-end to route & retrieve information. Also responsible for delivering presentations to the relevant stakeholders at the end of sprints. The Cognizant AWS account that this is hosted on is not public.',
     technology: 'React.js, Node.js, Jest, Amplify, auth0'
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     size: '7.92 MB',
     public: false,
     img: 'https://i.imgur.com/inEUFED.png',
-    description: 'MVP turn key auto-parts e-commerce store designed and developed as a part of an internal onboarding training program with Cognizant. Front end built with Typescript, React.js, and Node.js. Backend build on AWS Dynamo DB, routes handled with AWS Lambdas. Authentication with AWS Cognito and payment with Stripe. The Cognizant AWS account that this is hosted on is not public.',
+    description: 'MVP turn key auto-parts e-commerce store designed and developed as a part of an internal onboarding training program with Cognizant. Front end built with Typescript, React.js, and Node.js. Backend built on AWS Dynamo DB, routes handled with AWS Lambdas. Authentication with AWS Cognito and payment with Stripe. The Cognizant AWS account that this is hosted on is not public.',
     technology: 'Typescript, React.js, Node.js, AWS Lambdas, AWS DynamoDB, AWS Cognito, Stripe' 
   },
   {

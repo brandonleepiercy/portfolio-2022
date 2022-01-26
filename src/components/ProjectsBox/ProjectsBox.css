@@ -142,14 +142,12 @@
     transform: scale(.5, 1);
     height: 50%;
     width: fit-content;
-    padding-left: .5vw;
-    transition: 2s;
     cursor: pointer;
 }
 
 .back-button-text:hover {
-    text-decoration: underline 2px;
-    padding-left: 0;
+    transition: 1s;
+    opacity: 0.5;
 }
 
 .project-selected-title {
@@ -253,10 +251,15 @@
     white-space: nowrap;
 }
 
-.github-link a, .deployment-link a {
+.project-link a {
     font-family: Satoshi-Regular, sans-serif;
     font-size: 0.8vw;
     color: #879777;
+}
+
+.project-link a:hover {
+    transition: 1s;
+    opacity: .5;
 }
 
 @keyframes projectBoxFadeIn {
@@ -341,6 +344,22 @@
         font-size: 1.2vw;
     }
 
+    .project-selected-title {
+        font-size: 2.5vw;
+    }
+
+    .project-selected-description {
+        font-size: 1.2vw;
+    }
+
+    .project-selected-technologies {
+        font-size: 1.2vw;
+    }
+
+    .project-link a {
+        font-size: 1vw;
+    }
+
     @keyframes projectBoxFadeIn {
         0% {
             opacity: 0;
@@ -380,6 +399,51 @@
 }
 
 @media (max-width: 800px) {
+    .project-selected-back-button {
+        width: auto;
+        position: absolute;
+        right: 88%;
+    }
+
+    .project-selected-title {
+        display: flex;
+        justify-content: center;
+        width: 0;
+        white-space: nowrap;
+    }
+
+    .project-selected-content-row {
+        flex-direction: column;
+    }
+
+    .project-selected-image-wrapper {
+        height: auto;
+
+        justify-content: center;
+    }
+
+    .project-selected-image-wrapper img {
+        width: 165%;
+    }
+
+    .project-selected-body-container {
+        justify-content: space-between;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .project-selected-description {
+        font-size: 1.5vw;
+    }
+
+    .project-selected-technologies {
+        font-size: 1.5vw;
+    }
+
+    .project-link a {
+        font-size: 1.3vw;
+    }
+
     .screen-project-title-wrapper {
         font-size: 1.9vw;
     }
@@ -426,6 +490,30 @@
 }
 
 @media (max-width: 600px) {
+    .back-button-text {
+        font-size: 5vw;
+    }
+
+    .project-selected-title {
+        font-size: 4vw;
+    }
+
+    .project-selected-image-wrapper img {
+        width: 250%;
+    }
+
+    .project-selected-description {
+        font-size: 2.3vw;
+    }
+
+    .project-selected-technologies {
+        font-size: 2.3vw;
+    }
+
+    .project-link a {
+        font-size: 2vw;
+    }
+
     .project-box-decoration {
         font-size: 70px;
         top: -12%;
@@ -473,13 +561,31 @@
 }
 
 @media (max-width: 450px) {
-    .project-box-decoration {
-        font-size: 50px;
-        top: 20%;
+    .back-button-text {
+        font-size: 7vw;
+        padding-left: 15%;
     }
-}
 
-@media (max-width: 450px) {
+    .project-selected-title {
+        font-size: 5vw;
+    }
+
+    .project-selected-image-wrapper img {
+        width: 375%;
+    }
+
+    .project-selected-description {
+        font-size: 2.7vw;
+    }
+
+    .project-selected-technologies {
+        font-size: 2.7vw;
+    }
+
+    .project-link a {
+        font-size: 2.6vw;
+    }
+
     .project-box-decoration {
         font-size: 40px;
         top: -5vh;
