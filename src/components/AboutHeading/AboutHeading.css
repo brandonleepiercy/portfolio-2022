@@ -69,6 +69,12 @@
     }
 }
 
+@media (max-width:600px) {
+    .about-heading-wrapper {
+        width: 100%;
+    }
+}
+
 @media (max-width:425px) {
     .about-heading {
         font-size: 30px;
