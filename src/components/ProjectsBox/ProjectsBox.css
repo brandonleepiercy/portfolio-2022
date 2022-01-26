@@ -319,23 +319,185 @@
     .project-box-decoration {
         font-size: 100px;
     }
+
+    .project-box-container {
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .screen-project-title-wrapper {
+        font-size: 1.2vw;
+    }
+
+    .screen-project-size-wrapper {
+        font-size: 1.2vw;
+    }
+
+    .screen-index-title {
+        font-size: 1.2vw;
+    }
+
+    .screen-index-size {
+        font-size: 1.2vw;
+    }
+
+    @keyframes projectBoxFadeIn {
+        0% {
+            opacity: 0;
+            width: 5vw;
+            height: 0vh;
+        }
+    
+        40% {
+            height: 50vh;
+            width: 5vw;
+        }
+    
+    
+        100% {
+            opacity: 1;
+            width: 60vw;
+        }
+    }
+}
+
+@media (max-width: 1030px) {
+    .screen-project-title-wrapper {
+        font-size: 1.4vw;
+    }
+
+    .screen-project-size-wrapper {
+        font-size: 1.4vw;
+    }
+
+    .screen-index-title {
+        font-size: 1.4vw;
+    }
+
+    .screen-index-size {
+        font-size: 1.4vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .screen-project-title-wrapper {
+        font-size: 1.9vw;
+    }
+
+    .screen-project-size-wrapper {
+        font-size: 1.9vw;
+    }
+
+    .screen-index-title {
+        font-size: 1.9vw;
+    }
+
+    .screen-index-size {
+        font-size: 1.9vw;
+    }
+
+    .project-box-decoration {
+        top: -18%;
+    }
+
+    .project-box-container {
+        width: 65vw;
+        height: 55vh;
+    }
+
+    @keyframes projectBoxFadeIn {
+        0% {
+            opacity: 0;
+            width: 5vw;
+            height: 0vh;
+        }
+    
+        40% {
+            height: 55vh;
+            width: 5vw;
+        }
+    
+    
+        100% {
+            opacity: 1;
+            width: 65vw;
+        }
+    }
 }
 
 @media (max-width: 600px) {
     .project-box-decoration {
         font-size: 70px;
+        top: -12%;
+    }
+
+    .screen-project-title-wrapper {
+        font-size: 2.8vw;
+    }
+
+    .screen-project-size-wrapper {
+        font-size: 2.8vw;
+    }
+
+    .screen-index-title {
+        font-size: 2.8vw;
+    }
+
+    .screen-index-size {
+        font-size: 2.8vw;
+    }
+
+    .project-box-container {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    @keyframes projectBoxFadeIn {
+        0% {
+            opacity: 0;
+            width: 5vw;
+            height: 0vh;
+        }
+    
+        40% {
+            height: 60vh;
+            width: 5vw;
+        }
+    
+    
+        100% {
+            opacity: 1;
+            width: 90vw;
+        }
     }
 }
 
 @media (max-width: 450px) {
     .project-box-decoration {
         font-size: 50px;
+        top: 20%;
     }
 }
 
 @media (max-width: 450px) {
     .project-box-decoration {
         font-size: 40px;
-        top: -20%;
+        top: -5vh;
+    }
+
+    .screen-project-title-wrapper {
+        font-size: 3.3vw;
+    }
+
+    .screen-project-size-wrapper {
+        font-size: 3.3vw;
+    }
+
+    .screen-index-title {
+        font-size: 3.3vw;
+    }
+
+    .screen-index-size {
+        font-size: 3.3vw;
     }
 }
