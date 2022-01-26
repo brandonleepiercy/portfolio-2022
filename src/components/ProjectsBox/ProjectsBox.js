@@ -16,7 +16,7 @@ const projects = [
     deployment: 'https://brandon.im/',
     img: 'https://hfmibiza.com/wp-content/uploads/2021/02/oliver-heldens.jpg',
     description: 'My revised portfolio for 2022. Done in quite a hurry and still evolving but I am much happier with it now than it was. Tried to focus on pleasing colors and modern 3-dimensonal effects. Designed and developed myself.',
-    technology: 'React.js, Node.js, Express, Nodemailer, AWS Elastic Beanstalk, Amplify, AWS-SDK and SES'
+    technology: 'React.js, Node.js, Express, AWS Elastic Beanstalk, Amplify, AWS-SDK and SES'
   },
   {
     id: 1,
