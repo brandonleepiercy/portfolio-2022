@@ -26,7 +26,7 @@ function ContactForm() {
                 message: message
             };
 
-            fetch('http://mail-service.eba-htwmqpu5.us-west-2.elasticbeanstalk.com/email', {
+            fetch('https://mail-service.brandon.im/email', {
 
                 method: 'POST',
                 headers: {
