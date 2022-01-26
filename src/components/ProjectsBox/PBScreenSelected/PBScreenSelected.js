@@ -41,11 +41,11 @@ function PBScreenSelected(props) {
                     {project.public ? 
                     <div className='project-selected-links-container'>
                         <div className='github-link project-link'>
-                            <a href={project.githubLink} target="_blank">Github</a>
+                            <a href={project.githubLink} target="_blank" rel='noreferrer'>Github</a>
                         </div>
 
                         <div className='deployment-link project-link'>
-                            <a href={project.deployment} target='_blank'>Deployment</a>
+                            <a href={project.deployment} target='_blank' rel='noreferrer'>Deployment</a>
                         </div>
                     </div>
                     :null}
