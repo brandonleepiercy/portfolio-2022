@@ -1,0 +1,32 @@
+.social-row-container {
+    height: 50vh;
+    z-index: 30;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    transition: 2s;
+}
+
+.contact-social-icon {
+    cursor: pointer;
+    animation-name: socialIconFadeIn;
+    animation-duration: 5s;
+}
+
+@keyframes socialIconFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.contact-social-icon:hover {
+    transition: 2s;
+    scale: 1.2;
+}

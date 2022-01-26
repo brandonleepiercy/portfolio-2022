@@ -4,6 +4,12 @@
     color: #879777;
     animation-duration: 2s;
     animation-name: contactHeadingSlideIn;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+    position: relative;
+    top: -20vh;
 }
 
 @keyframes contactHeadingSlideIn {
