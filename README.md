@@ -16,8 +16,9 @@ I wireframed the initial designs for the pages of the application with AdobeXD.
 
 ## Build
 
-The app is just a basic React, JS application. The project display is simply handled with CSS & state. Front-end deployed on AWS. Continuous delivery handled with git.
+The app is just a basic React.js application. The project display is handled with CSS & state. Front-end deployed on AWS. Continuous delivery handled with git.
 
 ## Updates
 
 Updates continue. Want to create more dynamic effects based on project selection.
+Might implement authentication, but I don't really see a reason to without shoehorning in a useless feature.
