@@ -4,7 +4,7 @@ This project was built with React.js and Node.js. The mail link is provided by a
 
 ## Build Process
 
-On January 18th I started the build of the portfolio with the design process. The first iteration went live on the 25th.
+On January 18th I started the build of the portfolio with wireframing. The first iteration went live on the 25th.
 
 ## Designs
 
