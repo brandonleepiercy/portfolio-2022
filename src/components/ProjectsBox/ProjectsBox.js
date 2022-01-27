@@ -15,7 +15,7 @@ const projects = [
     githubLink: 'https://github.com/brandonleepiercy/festival-finder',
     deployment: 'https://main.d3h0yc09bp5aza.amplifyapp.com/',
     img: 'https://i.imgur.com/6uVwOtz.png',
-    description: 'Simple web app meant to help users find music festivals to attend. In progress. Solo project outside of work, deployed on AWS.',
+    description: 'Simple web app meant to help users find music festivals to attend. Solo project outside of work, deployed on AWS. Incomplete & in progress.',
     technology: 'React.js, Node.js, AWS Amplify' 
   },
   {
