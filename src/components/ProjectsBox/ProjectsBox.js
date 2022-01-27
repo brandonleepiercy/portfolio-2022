@@ -9,17 +9,28 @@ import PBScreenSelected from './PBScreenSelected/PBScreenSelected';
 const projects = [
   {
     id: 0,
+    title: 'festival-finder',
+    size: '279 KB',
+    public: true,
+    githubLink: 'https://github.com/brandonleepiercy/festival-finder',
+    deployment: 'https://main.d3h0yc09bp5aza.amplifyapp.com/',
+    img: 'https://i.imgur.com/6uVwOtz.png',
+    description: 'Simple web app meant to help users find music festivals to attend. In progress. Solo project outside of work, deployed on AWS.',
+    technology: 'React.js, Node.js, AWS Amplify' 
+  },
+  {
+    id: 1,
     title: 'portfolio-2022',
     size: '14.05 MB',
     public: true,
     githubLink: 'https://github.com/brandonleepiercy/portfolio-2022',
     deployment: 'https://brandon.im/',
-    img: 'https://i.imgur.com/Ur1WnFb.png',
+    img: 'https://i.imgur.com/orZeajA.png',
     description: "My revised portfolio for 2022. Done in quite a hurry and it's still evolving, but I'm much happier with it's current form. I tried to focus on universal pleasing colors and modern 3-dimensonal effects. Designed and developed myself.",
     technology: 'React.js, Node.js, Express, AWS Elastic Beanstalk, Amplify, AWS-SDK and SES'
   },
   {
-    id: 1,
+    id: 2,
     title: 'java-gradle-springboot-backend',
     size: '83 KB',
     public: false,
@@ -28,7 +39,7 @@ const projects = [
     technology: 'Java, Gradle, Spring Boot, AWS Elastic Beanstalk, CodePipeline, RDS, Cognito'
   },
   {
-    id: 2,
+    id: 3,
     title: 'react-jest-social-media-site',
     size: '10.32 MB',
     public: false,
@@ -37,7 +48,7 @@ const projects = [
     technology: 'React.js, Node.js, Jest, Amplify, auth0'
   },
   {
-    id: 3,
+    id: 4,
     title: 'auto-parts-e-commerce-site',
     size: '7.92 MB',
     public: false,
@@ -46,13 +57,13 @@ const projects = [
     technology: 'Typescript, React.js, Node.js, AWS Lambdas, AWS DynamoDB, AWS Cognito, Stripe' 
   },
   {
-    id: 4,
+    id: 5,
     title: 'snippet.ltd',
     size: '5.65 MB',
     public: true,
     githubLink: 'https://github.com/ma-wong/project-3',
     deployment: 'http://snippet.ltd/',
-    img: 'https://i.imgur.com/lSeXwC0.png',
+    img: 'https://i.imgur.com/rODu2hC.png',
     description: 'Final project for the coding bootcamp I completed in January of 2020. Part of a team of 5, handled building front-end components as well as building out all of the routing for all of the various data models to the SQL backend. Front end on AWS Amplify, backend on RDS.',
     technology: 'React.js, Node.js, SQL' 
   }
