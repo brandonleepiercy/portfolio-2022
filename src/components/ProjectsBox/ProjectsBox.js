@@ -9,6 +9,15 @@ import PBScreenSelected from './PBScreenSelected/PBScreenSelected';
 const projects = [
   {
     id: 0,
+    title: 'mci-private-equity',
+    size: '279 KB',
+    public: false,
+    img: 'https://i.imgur.com/7yhlUXw.png',
+    description: 'Currently building a website for a small/growing private equity firm. Site is built with React.js and deployed via AWS. It can be found at https://mciequity.com',
+    technology: 'React.js, Node.js, AWS Amplify' 
+  },
+  {
+    id: 1,
     title: 'festival-finder',
     size: '279 KB',
     public: true,
@@ -19,7 +28,7 @@ const projects = [
     technology: 'React.js, Node.js, AWS Amplify' 
   },
   {
-    id: 1,
+    id: 2,
     title: 'portfolio-2022',
     size: '14.05 MB',
     public: true,
@@ -30,7 +39,7 @@ const projects = [
     technology: 'React.js, Node.js, Express, AWS Elastic Beanstalk, Amplify, AWS-SDK and SES'
   },
   {
-    id: 2,
+    id: 3,
     title: 'java-gradle-springboot-backend',
     size: '83 KB',
     public: false,
@@ -39,7 +48,7 @@ const projects = [
     technology: 'Java, Gradle, Spring Boot, AWS Elastic Beanstalk, CodePipeline, RDS, Cognito'
   },
   {
-    id: 3,
+    id: 4,
     title: 'react-jest-social-media-site',
     size: '10.32 MB',
     public: false,
@@ -48,7 +57,7 @@ const projects = [
     technology: 'React.js, Node.js, Jest, Amplify, auth0'
   },
   {
-    id: 4,
+    id: 5,
     title: 'auto-parts-e-commerce-site',
     size: '7.92 MB',
     public: false,
@@ -57,7 +66,7 @@ const projects = [
     technology: 'Typescript, React.js, Node.js, AWS Lambdas, AWS DynamoDB, AWS Cognito, Stripe' 
   },
   {
-    id: 5,
+    id: 6,
     title: 'snippet.ltd',
     size: '5.65 MB',
     public: true,
