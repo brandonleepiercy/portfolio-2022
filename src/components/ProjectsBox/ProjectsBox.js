@@ -11,7 +11,9 @@ const projects = [
     id: 0,
     title: 'mci-private-equity',
     size: '279 KB',
-    public: false,
+    public: true,
+    githubLink: 'https://github.com/brandonleepiercy/mci-private-equity',
+    deployment: 'https://mciequity.com/',
     img: 'https://i.imgur.com/7yhlUXw.png',
     description: 'Currently building a website for a small/growing private equity firm. Site is built with React.js and deployed via AWS. It can be found at https://mciequity.com',
     technology: 'React.js, Node.js, AWS Amplify' 
