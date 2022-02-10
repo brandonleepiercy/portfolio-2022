@@ -1,31 +1,28 @@
+.about-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-around;
+}
+
 .about-body {
-    position: absolute;
-    white-space: nowrap;
     font-family: Satoshi-Medium, sans-serif;
-    font-size: 20px;
+    font-size: 1.1vw;
     color: #977777;
-    margin-top: 3vh;
 }
 
 .career {
-    top: 13.542vh;
-    left: -10vw;
     animation-duration: 3s;
     animation-name: careerBlurbFadeIn;
 }
 
 .racing {
-    top: 2vh;
-    left:35vw;
     text-align: right;
     animation-duration: 4.5s;
     animation-name: racingBlurbFadeIn;
 }
 
 .side-hustles {
-    top: 36.3vh;
-    text-align: center;
-    left:8vw;
     animation-duration: 5s;
     animation-name: sideHustlesBlurbFadeIn;
 }
@@ -72,70 +69,9 @@
     }
 }
 
-@media (max-width:1980px) {
+
+@media (max-width:780px) {
     .about-body {
-        font-size: 17px;
-    }
-}
-
-@media (max-width:1440px) {
-    .career{
-        left: -15vw;
-    }
-
-    .racing {
-        left: 27vh;
-    }
-
-    .side-hustles {
-        top: 30vh;
-        right:1vw;
-    }
-}
-
-@media (max-width:1280px) {
-    .career{
-        top: 3vh;
-        left: -17vw;
-    }
-
-    .racing {
-        top:20vh;
-        left: 15vh;
-    }
-
-    .side-hustles {
-        right: 0;
-    }
-}
-
-@media (max-width:1024px) {
-    .about-body {
-        white-space: normal;
-    }
-}
-
-@media (max-width:768px) {
-    .side-hustles {
-        top: 40vh;
-    }
-
-    .about-body {
-        width: 30vw;
-    }
-}
-
-@media (max-width: 568px) {
-    .about-body {
-        font-size: 8px;
-    }
-
-    .racing {
-        top: 7vh;
-        left: 32vw;
-    }
-
-    .side-hustles {
-        top: 25vh;
+        font-size: 1.5vh;
     }
 }
